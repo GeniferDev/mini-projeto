@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+body {
+    background-color: rgb(18, 18, 18);
+}
+
+header {
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 20%;
+    cursor: pointer;
+}
+
+nav {
+    position: relative; /* ao objeto pai*/
+    margin: 4px;
+    padding: 5px;
+    top: 0;
+    width: 50%;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    margin: 4px;
+    padding: 5px;
+    list-style: none; /* none - eliminar algo que você queira, nesse caso não quer estilo nenhum no ul (tira os pontos) */
+}
+li {
+    margin: 4px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none; /* tira a decoração do link, o _ */
+    color: white;
+    cursor: pointer;
+
+}
+
+nav a:hover {
+    background-color: black;
+    transition: 0.7s;
+}
+
+#nome {
+    color: white;
+}
+
+.circulos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+.circulos p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.texto-abaixo p {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+h3 {
+    color: white;
+    margin-left: 60px;
+}
+
+
+.img-redonda {
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+p {
+    color: white;
+}
+
+.artigos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.artigos img {
+    margin-top: 60px;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#contatos li {
+    list-style: none;
+}
+
+#importante li{
+    list-style: none
+}
+
+footer a:hover {
+    background-color: #000;
+    transition: 1s;
+}
+
+footer h2 {
+    text-align: center;
+    font-size: 16px;
+}
+
+footer i {
+    padding: 3px;
+    font-size: 20px;
+}
+
+.slide{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.slide img {
+    width: 800px;
+}
+
